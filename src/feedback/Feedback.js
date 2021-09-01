@@ -13,7 +13,7 @@ function Feedback({
   const remainingDuration = displayDuration(remainingTime);
   const isPaused = !isTimerRunning ? "Paused" : "~~>";
   const progress = (1 - remainingTime / duration) * 100;
-  const durationTimeUnit = duration === 60 ? "minute" : (duration < 60 ? "seconds" : "minutes");
+  const durationTimeUnit = duration === 60 ? "minutes" : (duration < 60 ? "seconds" : "minutes");
 
   return (
     // This area only shows when a focus or break session is running or paused
