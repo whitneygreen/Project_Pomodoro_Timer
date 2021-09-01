@@ -1,3 +1,3 @@
 # Pomodoro Timer
 
-A Project for Thinkful's Software Engineering Bootcamp.
+Thinkful Pomodoro Timer Project
